@@ -1,0 +1,30 @@
+.grid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+  height: 500px;
+  place-items: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+.boks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  justify-self: center;
+}
+#flyt {
+  margin-top: 100px;
+}
+#flyt1 {
+  margin-top: 100px;
+}
+@media (max-width: 700px) {
+  grid1_1 {
+    display: none;
+  }
+}

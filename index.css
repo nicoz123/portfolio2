@@ -1,0 +1,45 @@
+header {
+  top: 13%;
+  left: -25%;
+}
+.forside {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: block;
+}
+
+h1 {
+  color: #f7882c;
+  font-family: "Khand", sans-serif;
+  font-size: 600%;
+}
+
+h2 {
+  font-family: "Parisienne", cursive;
+}
+.op {
+  position: fixed;
+  top: 20%;
+  left: 7%;
+}
+.ned {
+  position: fixed;
+  top: 48%;
+  left: 16%;
+  font-size: 180%;
+}
+
+@media (max-width: 700px) {
+  .op {
+    font-size: 30px;
+    top: 5px;
+  }
+  .ned {
+    font-size: 10px;
+    top: 50px;
+    left: 7%;
+  }
+  body {
+    background-color: #d4fff9;
+  }
+}

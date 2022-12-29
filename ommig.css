@@ -1,0 +1,64 @@
+h1 {
+  font-family: "Khand", sans-serif;
+  color: #f7882c;
+  position: absolute;
+  top: 17%;
+  left: 20%;
+}
+
+.grid2_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 800px;
+  height: 600px;
+  place-items: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+p {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 25px;
+  background-color: aliceblue;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  margin-top: 10px;
+}
+.nico {
+  border: 10px solid;
+  border-color: #cae7ed;
+  margin-top: 50px;
+}
+li {
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  font-family: "Khand", sans-serif;
+  color: #f7882c;
+  margin-left: 50px;
+  margin-bottom: -15px;
+}
+.grid3_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 800px;
+  height: 0px;
+  place-items: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-top: -50px;
+}
+.prik {
+  border: 10px solid;
+  border-color: #cae7ed;
+  margin-right: 30px;
+}
+.farve {
+  border-radius: 25px;
+  background-color: aliceblue;
+}

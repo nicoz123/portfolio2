@@ -1,6 +1,7 @@
 header {
   top: 13%;
   left: -25%;
+  position: fixed;
 }
 .forside {
   width: 100%;

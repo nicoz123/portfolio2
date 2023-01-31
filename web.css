@@ -1,0 +1,33 @@
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #f7882c;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  top: 17%;
+  border-bottom: 1px solid;
+  border-color: black;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  top: 25%;
+}
+.img {
+  width: 60%;
+  top: 50%;
+  border: 10px solid;
+  border-color: #cae7ed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+}

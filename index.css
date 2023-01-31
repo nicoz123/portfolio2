@@ -1,7 +1,6 @@
 header {
   top: 13%;
   left: -25%;
-  position: fixed;
 }
 .forside {
   width: 100%;
@@ -42,5 +41,8 @@ h2 {
   }
   body {
     background-color: #d4fff9;
+  }
+  header {
+    top: 0%;
   }
 }

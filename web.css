@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   font-family: "Raleway", sans-serif;
   color: #f7882c;
   display: flex;
@@ -20,4 +20,41 @@ h2 {
   align-items: center;
   justify-content: center;
   top: 25%;
+}*/
+
+@media (min-width: 800px) {
+  .grid2_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .tekst1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 25px;
+    background-color: aliceblue;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+  }
+  .tekst2 {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 25px;
+    background-color: aliceblue;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+  }
+  .order {
+    order: 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .billede {
+    width: 300px;
+    margin: 4%;
+  }
 }

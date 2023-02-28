@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 701px) {
   main {
     max-width: 1050px;
     place-items: center;
@@ -22,7 +22,7 @@
     margin-top: -35px;
   }
   .h2 {
-    margin-top: 0px;
+    margin-top: -10px;
   }
   p {
     margin-right: 20px;
@@ -100,6 +100,9 @@
     color: #ffffff;
     background-color: #f7882c;
   }
+  BR {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -145,10 +148,6 @@
     padding: 7px;
     transition-duration: 0.2s;
   }
-  .button1:hover {
-    color: #ffffff;
-    background-color: #f7882c;
-  }
   p {
     margin-left: 10px;
     text-align: left;
@@ -162,5 +161,8 @@
   img {
     border: 10px solid;
     border-color: #cae7ed;
+  }
+  BR {
+    margin-bottom: 10px;
   }
 }

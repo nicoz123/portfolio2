@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 701px) {
   main {
     max-width: 1050px;
     place-items: center;
@@ -22,7 +22,7 @@
     margin-top: -35px;
   }
   .h2 {
-    margin-top: 0px;
+    margin-top: -10px;
   }
   p {
     margin-right: 20px;
@@ -144,10 +144,6 @@
     border-radius: 25px;
     padding: 7px;
     transition-duration: 0.2s;
-  }
-  .button1:hover {
-    color: #ffffff;
-    background-color: #f7882c;
   }
   p {
     margin-left: 10px;

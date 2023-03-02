@@ -80,10 +80,6 @@
   .billede1 {
     margin-top: 130px;
   }
-  a {
-    text-align: center;
-    margin-left: 20px;
-  }
   .button1 {
     display: inline-block;
     border: 0.1em solid #f7882c;
@@ -99,6 +95,9 @@
   .button1:hover {
     color: #ffffff;
     background-color: #f7882c;
+  }
+  BR {
+    margin-bottom: 10px;
   }
 }
 
@@ -158,5 +157,8 @@
   img {
     border: 10px solid;
     border-color: #cae7ed;
+  }
+  BR {
+    margin-bottom: 10px;
   }
 }

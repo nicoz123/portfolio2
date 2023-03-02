@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 701px) {
   .grid1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,6 +25,102 @@
   #flyt1 {
     margin-top: 100px;
   }
+  main {
+    max-width: 1050px;
+    place-items: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+  }
+  h1 {
+    font-family: "Khand", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: -9px;
+    color: #f7882c;
+    margin-bottom: -15px;
+  }
+  p {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 25px;
+    background-color: aliceblue;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 80px;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .grid_2-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    text-align: center;
+    margin-top: 250px;
+  }
+  .tekst1 {
+    margin-right: 20px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 25px;
+    background-color: aliceblue;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+  }
+  .tekst2 {
+    margin-right: 20px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 25px;
+    background-color: aliceblue;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+  }
+  .grid_3-3 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .order {
+    order: 2;
+  }
+  .web1 {
+    margin-top: 130px;
+  }
+  .billede1 {
+    margin-top: 130px;
+    border: 10px solid;
+    border-color: #cae7ed;
+  }
+  .billede {
+    border: 10px solid;
+    border-color: #cae7ed;
+  }
+
+  .button1 {
+    display: inline-block;
+    border: 0.1em solid #f7882c;
+    color: #f7882c;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 7px;
+    transition-duration: 0.2s;
+  }
+  .button1:hover {
+    color: #ffffff;
+    background-color: #f7882c;
+  }
+  BR {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 700px) {
   .boks {
@@ -45,5 +141,62 @@
   }
   a {
     margin-bottom: -4px;
+  }
+  .billede {
+    width: 280px;
+    margin: 4%;
+    border: 10px solid;
+    border-color: #cae7ed;
+  }
+  .billede1 {
+    width: 280px;
+    margin: 4%;
+    border: 10px solid;
+    border-color: #cae7ed;
+  }
+  h2 {
+    font-family: "Khand", sans-serif;
+    color: #93bcc4;
+    text-align: center;
+    margin-top: -20px;
+  }
+  h1 {
+    font-family: "Khand", sans-serif;
+    text-align: center;
+    color: #f7882c;
+    margin-top: 200px;
+    margin-bottom: -15px;
+  }
+  .grid_3-3 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .grid_2-2 {
+    text-align: center;
+  }
+  .button1 {
+    display: inline-block;
+    border: 0.1em solid #f7882c;
+    color: #f7882c;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 7px;
+    transition-duration: 0.2s;
+  }
+  p {
+    margin-left: 10px;
+    text-align: left;
+    border-radius: 25px;
+    background-color: aliceblue;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+  }
+  BR {
+    margin-bottom: 10px;
   }
 }

@@ -1,11 +1,15 @@
 header {
-  top: 13%;
+  top: 14%;
   left: -25%;
 }
 .forside {
   width: 100%;
   aspect-ratio: 16/9;
   display: block;
+  margin: -6px;
+}
+body {
+  background-color: #d4fff9;
 }
 
 h1 {
@@ -16,7 +20,8 @@ h1 {
 
 h2 {
   font-family: "Parisienne", cursive;
-  color: #5b5b5b;
+  color: #9a9a9a;
+  font-weight: lighter;
 }
 .op {
   position: fixed;
@@ -26,7 +31,7 @@ h2 {
 .ned {
   position: fixed;
   top: 48%;
-  left: 16%;
+  left: 17%;
   font-size: 180%;
 }
 
